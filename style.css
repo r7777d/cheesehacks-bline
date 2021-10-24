@@ -1,0 +1,171 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: url(../images/login_image2.jpg) no-repeat center center fixed;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.logo {
+    display: block;
+    margin-top: 4%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height: 20%;
+}
+
+.portal{
+    visibility: visible;
+    width: 350px;
+    height: 475px;
+    background: #292929;
+    color: rgba(255, 255, 255, 0.459);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    margin-top: 5%;
+}
+.usericon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: calc(50% - 50px);
+}
+h2{
+    margin: 0;
+    padding: 50px 0 20px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.portal p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.portal input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.portal input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+}
+
+.portal input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background:#d41b22;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.portal input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #a5171b;  
+    color: white;
+}
+
+.portal a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: lightgray;
+}
+
+.portal a:hover{
+
+    color: #a5171b;
+
+}
+
+.regForm{
+    visibility: hidden;
+    width: 350px;
+    height: 560px;
+    background: #292929;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.regForm p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.regForm input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.regForm input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+}
+
+.regForm input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #d41b22;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.regForm input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #a5171b;
+    color: white;
+}
+
+.regForm a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: lightgray;
+}
+
+.regForm a:hover{
+
+    color: #a5171b;
+
+}
+

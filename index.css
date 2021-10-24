@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../images/madison.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img {
+    width: 130px;
+    height: 40px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.text-box{
+    width:90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 50px;
+}
+.text-box p{
+    padding-top: 13px;
+    font-size: 14px;
+    color: #fff;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color:#fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 12px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid rgb(175, 21, 21);
+    background: rgb(175, 21, 21);
+    transition: 1s;
+}
+
+
+.bars{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 60px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+.bars img {
+    padding-top: 20px;
+    padding-right: 1000px;
+    width: 15%;
+    height: 15%;
+}
+p{
+    color:rgb(70, 70, 70);
+    font-size: 40px;
+    font-weight: 1500;
+    line-height: 22px;
+    border-color: black;
+}
+
+
+.restaurants{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color:#777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding-bottom: 100px
+}
+
+hr.solid {
+    margin-top: 5%;
+    border-top: 3px solid black;
+  }
+
+
+.footer{
+    position: relative;
+    min-height: 80px;
+    width: 100%;
+    clear: both;
+    background-color: #282728;
+    border-top: 5px solid #c5050c;
+    color: #adadad;
+}
+p{
+    padding-top: 80px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(199, 199, 199);
+}
+p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(199, 199, 199);
+}
+
+.SSB{
+    display: inline-block;
+    width: 40%;
+    margin-left: 17.5%;
+}
+
+.WJ{
+    display: inline-block;
+    width: 40%;
+}
+
+.bar {
+    background-color: rgb(121, 115, 115);
+    width: 40%;
+    border-radius: 15px;
+}
+
+.capacity {
+    background-color: rgb(240, 13, 13);
+    color: white;
+    padding: 1%;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.brats {
+    width: 40%;
+}
+
+.bars p{
+    border-color: black;;
+}

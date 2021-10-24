@@ -1,0 +1,89 @@
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #a5171b;
+}
+
+.navbar a {
+    display: block;
+    color: #d41b22;;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-family: Copperplate, fantasy;
+    font-size: 25pt;
+}
+
+.homeicon{
+    margin-top: 5px;
+    height: 5%;
+    width: 5%;
+}
+
+.text{
+    margin-top: 7px;
+}
+
+
+
+.propic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    padding-left: 125px;
+    width: 50%;
+}
+
+.propic input[type="submit"]{
+    width: 630px;
+    height: 50px;
+    background: #d41b22;;
+    color: white;
+    font-size: 18px;
+    font-family: Copperplate, fantasy;
+    border-radius: 5px;
+}
+
+.propic input[type="submit"]:hover {
+    cursor: pointer;
+    background: #a5171b;
+    color: white;
+}
+
+.userdata{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-family: Copperplate, fantasy;
+    font-size: 30px;
+}
+
+.userdata input[type="text"]{
+    border: none;
+    border-bottom: 1px solid darkgray;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: darkgray;
+    font-size: 22px;
+}
+
+.submit input[type=submit]{
+    margin-top: 25px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 20%;
+    height: 50px;
+    background: #a5171b;
+    color: white;
+    font-size: 18px;
+    font-family: Copperplate, fantasy;
+    border-radius: 5px;
+}
